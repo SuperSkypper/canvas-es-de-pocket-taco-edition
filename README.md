@@ -13,8 +13,31 @@ the screen, above the controller, with the game image on top and a full width ga
 was tested on a Galaxy M31 (1080x2340) with the GameSir Pocket Taco, and it adapts to other portrait
 screens as well.
 
-Everything else is the original theme, so all credit belongs to
-[Siddy21](https://github.com/Siddy212) and to the artists credited below.
+## **Installation**
+
+1. Download the `canvas-pocket-taco-es-de-vX.X.X.zip` file from the
+   [releases page](https://github.com/SuperSkypper/canvas-es-de-pocket-taco-edition/releases/latest).
+2. Extract the `canvas-pocket-taco-es-de` folder into the `themes` folder of your ES-DE
+   installation:
+   - Android: `/storage/emulated/0/ES-DE/themes/`
+   - Windows: `%USERPROFILE%\ES-DE\themes\`
+   - Linux / macOS: `~/ES-DE/themes/`
+3. Open ES-DE, go to `UI Settings` > `Theme` and select `Canvas (Pocket Taco)`.
+4. Leave `Theme Aspect Ratio` on `Automatic` (the default). The pocket layout is only used while the
+   screen is in portrait; in landscape you still get the normal Canvas layout. On a 19.5:9 phone
+   (Galaxy M31) it is detected automatically.
+
+Hold the phone upright with the controller attached and the whole interface stays in the top part of
+the screen, above the controller.
+
+## **Original Theme Info**
+
+- Original theme: **Canvas (ES-DE Version)** by [Siddy21](https://github.com/Siddy212) -
+  https://github.com/Siddy212/canvas-es-de
+- License: **CC BY-NC-SA 2.0** (see `LICENSE`) - attribution is required, commercial use is not
+  allowed, and any redistribution or further modification must stay under the same license terms.
+- Everything below is the original theme's documentation. Only the portrait layout was added in this
+  fork; all credit for the original theme, art and code belongs to the original authors.
 
 ## **Preview**
 
