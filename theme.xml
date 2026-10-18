@@ -32,8 +32,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontItalic>Gilroy-RegularItalic</fontItalic>
    </variables>
-   <include>./colors.xml</include>
-   <include>./aspect-ratio-variables.xml</include>
+    <include>./colors.xml</include>
+    <include>./aspect-ratio-variables.xml</include>
+    <include>./aspect-ratio-variables-vertical.xml</include>
    
    <!--
    ///
@@ -992,6 +993,43 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </aspectRatio>
    <aspectRatio name="3:2">
       <include>./aspect-ratio-3-2.xml</include>
+   </aspectRatio>
+   <!-- All vertical (portrait) aspect ratios share one layout file, so that
+        portrait handhelds of any screen shape get the same pocket safe area.
+        The layout reads the <pocket-*> variables defined in
+        ./aspect-ratio-variables-vertical.xml -> _inc/vertical/vertical-variables.xml -->
+   <aspectRatio name="16:9_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="16:10_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="5:3_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="5:4_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="19.5:9_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="20:9_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="21:9_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
+   </aspectRatio>
+   <aspectRatio name="32:9_vertical">
+      <include>./aspect-ratio-vertical.xml</include>
    </aspectRatio>
    <!--
    ///

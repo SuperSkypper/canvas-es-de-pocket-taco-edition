@@ -1,0 +1,47 @@
+<theme>
+   <!--
+   ///
+   Vertical (portrait) aspect ratio registration.
+   ///
+   Every portrait screen ends up in one of these blocks. They all include the
+   same file, so the "pocket safe area" is defined in exactly one place:
+
+      _inc/vertical/vertical-variables.xml
+
+   Edit the <pocket-*> variables there to fit your controller.
+   ///
+   -->
+   <aspectRatio name="16:9_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="16:10_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="5:3_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="5:4_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="19.5:9_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="20:9_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="21:9_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+   <aspectRatio name="32:9_vertical">
+      <include>./_inc/vertical/vertical-variables.xml</include>
+   </aspectRatio>
+</theme>

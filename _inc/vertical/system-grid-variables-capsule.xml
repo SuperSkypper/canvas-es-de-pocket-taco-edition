@@ -1,0 +1,39 @@
+<theme>
+   <!--
+   ///
+   System view grid variables for vertical (portrait) screens, capsule variant.
+   Included by every <aspectRatio name="*_vertical"> block of
+   _inc/system-grid/system-variables-capsule.xml.
+   ///
+   -->
+   <fontSize name="small">
+      <variables>
+         <gridItemSize>0.32 0.20</gridItemSize>
+         <gridItemPos>0.5</gridItemPos>
+         <gridHeight>0.48</gridHeight>
+         <itemcount>3</itemcount>
+         <itemsize>0.3 0.4</itemsize>
+         <itemSpacingStyle>0 0</itemSpacingStyle>
+      </variables>
+   </fontSize>
+   <fontSize name="medium,large">
+      <variables>
+         <gridItemSize>0.32 0.20</gridItemSize>
+         <gridItemPos>0.5</gridItemPos>
+         <gridHeight>0.48</gridHeight>
+         <itemcount>3</itemcount>
+         <itemsize>0.36 0.4</itemsize>
+         <itemSpacingStyle>0 0</itemSpacingStyle>
+      </variables>
+   </fontSize>
+   <fontSize name="x-large">
+      <variables>
+         <gridItemSize>0.36 0.21</gridItemSize>
+         <gridItemPos>0.5</gridItemPos>
+         <gridHeight>0.48</gridHeight>
+         <itemcount>2.5</itemcount>
+         <itemsize>0.4 0.5</itemsize>
+         <itemSpacingStyle>0 0</itemSpacingStyle>
+      </variables>
+   </fontSize>
+</theme>

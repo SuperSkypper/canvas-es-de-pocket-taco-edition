@@ -1,0 +1,229 @@
+<theme>
+   <!--
+   ///
+   Shared variables for every vertical (portrait) aspect ratio.
+   This file is included by all <aspectRatio name="*_vertical"> blocks,
+   so it is the single place to tune the layout for portrait handhelds.
+   ///
+   Phone controllers such as the GameSir Pocket Taco hold the phone in
+   portrait and cover the lower part of the screen, so the whole UI is
+   confined to the top area of the display.
+   ///
+   All values are fractions of the screen, 0 is the top/left edge.
+   ///
+   -->
+
+   <variables>
+      <!--
+      ///
+      === Pocket safe area (edit these to match your controller) ===
+      ///
+      -->
+
+      <!--   Bottom edge of the usable area. The help bar sits here, so this is
+             the value to raise/lower if the controller covers more/less screen.   -->
+      <pocket-help-y>0.61</pocket-help-y>
+      <!--   Media / divider strip (system metadata line)   -->
+      <pocket-media-y>0.62</pocket-media-y>
+      <pocket-divider-y>0.62</pocket-divider-y>
+      <!--   Vertical center of the system carousel and of the grid   -->
+      <pocket-carousel-y>0.52</pocket-carousel-y>
+      <pocket-grid-y>0.53</pocket-grid-y>
+      <!--   System view: grid/carousel box (center and height)   -->
+      <pocket-system-y>0.32</pocket-system-y>
+      <pocket-system-h>0.48</pocket-system-h>
+      <!--   Gamelist view: textlist top edge and height, plus the centered
+             game image and game name   -->
+      <pocket-gamelist-y>0.35</pocket-gamelist-y>
+      <pocket-list-h>0.225</pocket-list-h>
+      <pocket-image-y>0.19</pocket-image-y>
+      <pocket-name-y>0.325</pocket-name-y>
+
+      <!--
+      ///
+      === Shared aspect ratio variables (normally left as is) ===
+      ///
+      -->
+      <grid-scaled-w>0.98175</grid-scaled-w>
+      <aspect-ratio-scale>0.461538461538462</aspect-ratio-scale>
+      <help-x>0.5</help-x>
+      <help-x-small-flipped>0.75</help-x-small-flipped>
+      <help-x-small>0.25</help-x-small>
+      <cart-divider-w>0.000923076923076923</cart-divider-w>
+      <overlay-pos>0.5 1.109375</overlay-pos>
+      <overlay-crop-pos>0.5 1.21875</overlay-crop-pos>
+   </variables>
+
+   <fontSize name="small">
+      <variables>
+         <!--   All Variables   -->
+         <base-font-size>0.044</base-font-size>
+         <games-count-font-size>0.022</games-count-font-size>
+         <help-font-size>0.027</help-font-size>
+         <help-font-size-small>0.021</help-font-size-small>
+         <help-font-size-smallest>0.021</help-font-size-smallest>
+         <divider-y>${pocket-divider-y}</divider-y>
+         <overlay-h>0.15</overlay-h>
+         <overlay-crop-size>1  0.15</overlay-crop-size>
+         <media-y>${pocket-media-y}</media-y>
+         <top-divider-y>0.05</top-divider-y>
+         <system-logo-h>0.045</system-logo-h>
+         <system-logo-w>0.05</system-logo-w>
+         <system-logo-x>0.02</system-logo-x>
+         <system-logo-y>0.05</system-logo-y>
+         <games-count-y>0.06</games-count-y>
+         <grid-games-count-x>0.065</grid-games-count-x>
+         <grid-games-count-icon-x>0.055</grid-games-count-icon-x>
+         <carousel-games-count-x>0.44</carousel-games-count-x>
+         <carousel-games-count-icon-x>0.42</carousel-games-count-icon-x>
+         <help-y>${pocket-help-y}</help-y>
+         <!--   Basic Grid Variables   -->
+         <grid-marquee-h>0.06</grid-marquee-h>
+         <grid-marquee-y>0.03</grid-marquee-y>
+         <grid-marquee-w>0.2</grid-marquee-w>
+         <basic-grid-h>0.36</basic-grid-h>
+         <!--   Immersive Grid / Carousel Variables   -->
+         <grid-y>${pocket-grid-y}</grid-y>
+         <carousel-y>${pocket-carousel-y}</carousel-y>
+         <grid-cart-h>0.03</grid-cart-h>
+         <grid-cart-w>0.05</grid-cart-w>
+         <grid-cart-x>0.94</grid-cart-x>
+         <grid-cart-y>0.03</grid-cart-y>
+         <grid-name-x>0.93</grid-name-x>
+         <grid-name-y>0.035</grid-name-y>
+         <grid-name-h>0.02</grid-name-h>
+         <grid-name-w>0.7</grid-name-w>
+         <cart-divider-x>0.935</cart-divider-x>
+         <cart-divider-h>0.03</cart-divider-h>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <!--   All Variables   -->
+         <base-font-size>0.032</base-font-size>
+         <games-count-font-size>0.026</games-count-font-size>
+         <help-font-size>0.032</help-font-size>
+         <help-font-size-small>0.024</help-font-size-small>
+         <help-font-size-smallest>0.024</help-font-size-smallest>
+         <divider-y>${pocket-divider-y}</divider-y>
+         <overlay-h>0.17</overlay-h>
+         <overlay-crop-size>1  0.17</overlay-crop-size>
+         <media-y>${pocket-media-y}</media-y>
+         <top-divider-y>0.055</top-divider-y>
+         <system-logo-h>0.06</system-logo-h>
+         <system-logo-w>0.07</system-logo-w>
+         <system-logo-x>0.022</system-logo-x>
+         <system-logo-y>0.05</system-logo-y>
+         <games-count-y>0.06</games-count-y>
+         <grid-games-count-x>0.075</grid-games-count-x>
+         <grid-games-count-icon-x>0.065</grid-games-count-icon-x>
+         <carousel-games-count-x>0.43</carousel-games-count-x>
+         <carousel-games-count-icon-x>0.41</carousel-games-count-icon-x>
+         <help-y>${pocket-help-y}</help-y>
+         <!--   Basic Grid Variables   -->
+         <grid-marquee-h>0.07</grid-marquee-h>
+         <grid-marquee-y>0.03</grid-marquee-y>
+         <grid-marquee-w>0.24</grid-marquee-w>
+         <basic-grid-h>0.36</basic-grid-h>
+         <!--   Immersive Grid / Carousel Variables   -->
+         <grid-y>${pocket-grid-y}</grid-y>
+         <carousel-y>${pocket-carousel-y}</carousel-y>
+         <grid-cart-h>0.035</grid-cart-h>
+         <grid-cart-w>0.06</grid-cart-w>
+         <grid-cart-x>0.94</grid-cart-x>
+         <grid-cart-y>0.035</grid-cart-y>
+         <grid-name-x>0.92</grid-name-x>
+         <grid-name-y>0.035</grid-name-y>
+         <grid-name-h>0.025</grid-name-h>
+         <grid-name-w>0.66</grid-name-w>
+         <cart-divider-x>0.925</cart-divider-x>
+         <cart-divider-h>0.04</cart-divider-h>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <!--   All Variables   -->
+         <base-font-size>0.037</base-font-size>
+         <games-count-font-size>0.030</games-count-font-size>
+         <help-font-size>0.036</help-font-size>
+         <help-font-size-small>0.027</help-font-size-small>
+         <help-font-size-smallest>0.027</help-font-size-smallest>
+         <divider-y>${pocket-divider-y}</divider-y>
+         <overlay-h>0.20</overlay-h>
+         <overlay-crop-size>1  0.20</overlay-crop-size>
+         <media-y>${pocket-media-y}</media-y>
+         <top-divider-y>0.06</top-divider-y>
+         <system-logo-h>0.07</system-logo-h>
+         <system-logo-w>0.09</system-logo-w>
+         <system-logo-x>0.025</system-logo-x>
+         <system-logo-y>0.05</system-logo-y>
+         <games-count-y>0.06</games-count-y>
+         <grid-games-count-x>0.085</grid-games-count-x>
+         <grid-games-count-icon-x>0.075</grid-games-count-icon-x>
+         <carousel-games-count-x>0.42</carousel-games-count-x>
+         <carousel-games-count-icon-x>0.40</carousel-games-count-icon-x>
+         <help-y>${pocket-help-y}</help-y>
+         <!--   Basic Grid Variables   -->
+         <grid-marquee-h>0.08</grid-marquee-h>
+         <grid-marquee-y>0.035</grid-marquee-y>
+         <grid-marquee-w>0.28</grid-marquee-w>
+         <basic-grid-h>0.36</basic-grid-h>
+         <!--   Immersive Grid / Carousel Variables   -->
+         <grid-y>${pocket-grid-y}</grid-y>
+         <carousel-y>${pocket-carousel-y}</carousel-y>
+         <grid-cart-h>0.04</grid-cart-h>
+         <grid-cart-w>0.07</grid-cart-w>
+         <grid-cart-x>0.94</grid-cart-x>
+         <grid-cart-y>0.04</grid-cart-y>
+         <grid-name-x>0.91</grid-name-x>
+         <grid-name-y>0.04</grid-name-y>
+         <grid-name-h>0.03</grid-name-h>
+         <grid-name-w>0.62</grid-name-w>
+         <cart-divider-x>0.915</cart-divider-x>
+         <cart-divider-h>0.045</cart-divider-h>
+      </variables>
+   </fontSize>
+   <fontSize name="x-large">
+      <variables>
+         <!--   All Variables   -->
+         <base-font-size>0.040</base-font-size>
+         <games-count-font-size>0.033</games-count-font-size>
+         <help-font-size>0.039</help-font-size>
+         <help-font-size-small>0.030</help-font-size-small>
+         <help-font-size-smallest>0.030</help-font-size-smallest>
+         <divider-y>${pocket-divider-y}</divider-y>
+         <overlay-h>0.22</overlay-h>
+         <overlay-crop-size>1  0.22</overlay-crop-size>
+         <media-y>${pocket-media-y}</media-y>
+         <top-divider-y>0.065</top-divider-y>
+         <system-logo-h>0.08</system-logo-h>
+         <system-logo-w>0.10</system-logo-w>
+         <system-logo-x>0.028</system-logo-x>
+         <system-logo-y>0.05</system-logo-y>
+         <games-count-y>0.06</games-count-y>
+         <grid-games-count-x>0.09</grid-games-count-x>
+         <grid-games-count-icon-x>0.08</grid-games-count-icon-x>
+         <carousel-games-count-x>0.41</carousel-games-count-x>
+         <carousel-games-count-icon-x>0.39</carousel-games-count-icon-x>
+         <help-y>${pocket-help-y}</help-y>
+         <!--   Basic Grid Variables   -->
+         <grid-marquee-h>0.09</grid-marquee-h>
+         <grid-marquee-y>0.04</grid-marquee-y>
+         <grid-marquee-w>0.32</grid-marquee-w>
+         <basic-grid-h>0.36</basic-grid-h>
+         <!--   Immersive Grid / Carousel Variables   -->
+         <grid-y>${pocket-grid-y}</grid-y>
+         <carousel-y>${pocket-carousel-y}</carousel-y>
+         <grid-cart-h>0.045</grid-cart-h>
+         <grid-cart-w>0.08</grid-cart-w>
+         <grid-cart-x>0.94</grid-cart-x>
+         <grid-cart-y>0.045</grid-cart-y>
+         <grid-name-x>0.90</grid-name-x>
+         <grid-name-y>0.045</grid-name-y>
+         <grid-name-h>0.035</grid-name-h>
+         <grid-name-w>0.58</grid-name-w>
+         <cart-divider-x>0.905</cart-divider-x>
+         <cart-divider-h>0.05</cart-divider-h>
+      </variables>
+   </fontSize>
+</theme>

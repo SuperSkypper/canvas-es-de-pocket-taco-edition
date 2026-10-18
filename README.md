@@ -1,6 +1,21 @@
 # Canvas (ES-DE Version)
 Canvas is a theme for EmulationStation-DE theme that aims to provide a minimal interface with a large variety of color schemes and styles. It also provides easy customization for users to swap out wallpapers to their own liking.
 
+## **About this fork**
+
+I am not a programmer. This is a personal fork that I made for myself, and I used AI to modify the
+original theme so I could have a version that is actually usable with a **GameSir Pocket Taco**
+controller - the controller holds the phone in portrait and covers the lower half of the screen, so
+the interface of the original theme ended up hidden behind it.
+
+What was added here is a portrait ("pocket") layout: the whole interface stays in the top part of
+the screen, above the controller, with the game image on top and a full width game list below it. It
+was tested on a Galaxy M31 (1080x2340) with the GameSir Pocket Taco, and it adapts to other portrait
+screens as well.
+
+Everything else is the original theme, so all credit belongs to
+[Siddy21](https://github.com/Siddy212) and to the artists credited below.
+
 ## **Preview**
 
 | System View | Gamelist View |
