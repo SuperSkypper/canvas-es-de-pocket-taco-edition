@@ -17,11 +17,8 @@ screens as well.
 
 1. Download the `canvas-pocket-taco-es-de-vX.X.X.zip` file from the
    [releases page](https://github.com/SuperSkypper/canvas-es-de-pocket-taco-edition/releases/latest).
-2. Extract the `canvas-pocket-taco-es-de` folder into the `themes` folder of your ES-DE
-   installation:
-   - Android: `/storage/emulated/0/ES-DE/themes/`
-   - Windows: `%USERPROFILE%\ES-DE\themes\`
-   - Linux / macOS: `~/ES-DE/themes/`
+2. Extract the `canvas-pocket-taco-es-de` folder into the `themes` folder of ES-DE on the phone:
+   `/storage/emulated/0/ES-DE/themes/`
 3. Open ES-DE, go to `UI Settings` > `Theme` and select `Canvas (Pocket Taco)`.
 4. Leave `Theme Aspect Ratio` on `Automatic` (the default). The pocket layout is only used while the
    screen is in portrait; in landscape you still get the normal Canvas layout. On a 19.5:9 phone
